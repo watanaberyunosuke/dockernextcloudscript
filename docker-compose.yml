@@ -30,7 +30,7 @@ services:
       - /docker/nextcloud/config:/config
       - /docker/nextcloud/apps:/apps2
       - /docker/nextcloud/themes:/nextcloud/themes
-
+  
   # If using MySQL/MariaDB
   nextcloud-db:
     image: mariadb:10
