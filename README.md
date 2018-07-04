@@ -27,7 +27,7 @@ docker run -i --expose=2333 yourdockerimageid bash
 
 After install and expose your port, you can launch into the website for nextcloud: yourip:yourport.
 
-It is also desirable to install a SSL Connection after install.
+It is also desirable to setup SSL Connection after install.
 
 ## Current Issues That Has Been Identified
 
