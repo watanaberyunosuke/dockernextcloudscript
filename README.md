@@ -28,3 +28,10 @@ docker run -i --expose=2333 yourdockerimageid bash
 After install and expose your port, you can launch into the website for nextcloud: yourip:yourport.
 
 It is also desirable to install a SSL Connection after install.
+
+## Current Issues That Has Been Identified
+
+1. Docker service might have to restart due to downage of inactivate.
+2. Not suitable for Vultr 2.5 dollar/month machine due to its low space.
+
+If there are any issue or improvement please feel free to open up issue or send pull request.
